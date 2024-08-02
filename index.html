@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="section section1">
+
+      <div class="container main">
+        <!-- row for header  -->
+        <div class="row">
+
+          <!-- col for the s.no -->
+          <div class="col-4" id="col-srNo">
+            <span>
+            Sr.No : 
+            </span>
+
+            <span>
+            00000000000
+            </span>
+          </div>
+
+          <!-- col for the logo -->
+          <div class="col-4" id="col-logo">
+            <img src="/MarkSheet/logo.jpg" id="logo" alt="">
+          </div>
+
+          <!-- col for the Qr code -->
+          <div class="col-4" id="col-Qr">
+            <img src="/MarkSheet/Qr code.png" id="orCode" alt="">
+          </div>
+
+        </div>
+
+        <!-- row for the college name -->
+
+        <div class="row" id="clgName">
+
+          <h3>
+            HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY
+          </h3>
+
+          <br>
+
+          <h4>
+            AN AUTONOMOUS INSTITUTION
+          </h4>
+
+          <h5>
+            Affiliated to Anna University | Approved by AICTE
+            Accredited by NBA and NAAC with"A++" grade
+          </h5>
+          <br>
+          <h5>
+            Valley Campus, Coimbatore-641032
+          </h5>
+
+        </div>
+
+        <!-- row for the heading of the MarkSheet  -->
+
+        <div class="row" id="markSheet">
+          <h4>
+            BE. DEGREE EXAMINATION 
+            GRADE SHEET
+          </h4>
+        </div>
+
+        <!-- row for the candidate name and course  -->
+        <div class="container">
+
+          <div class="row" id="nameCourse">
+
+            <!-- col for the candidate name -->
+            <div class="col-6" id="col-candiName">
+
+              <p>
+                NAME OF THE CANDIDATE
+              </p>
+              <h6>
+                GUHAN S
+              </h6>
+
+            </div>
+
+            <!-- col for the course name with code -->
+            <div class="col-6" id="col-courseDep">
+
+              <p>
+                PROGRAMME & BRANCH
+              </p> 
+              <h6>
+                BE-ECE
+              </h6>
+
+            </div>
+
+          </div>
+
+          <!-- row for reg no enroll no training center name with code -->
+          <div class="row">
+
+            <!-- col fo the reg no -->
+            <div class="col-3" id="col-regNo">
+            <p>REG NO </p> 
+            <h6>720721106047</h6>
+
+            </div>
+
+            <!-- col for the enrollment no -->
+            <div class="col-3" id="enrollNo">
+            <p>ENROLLMENT NO</p> 
+            <h6>720721106</h6>
+
+            </div>
+
+            <!-- col for the authority training center name -->
+            <div class="col-6" id="trainiName">
+              <p>AUTHORITY TRAINING CENTR NAME</p>
+              <h6>COE OF THE HICET</h6>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="container" id="container-mark">
+        <!-- row for the heading of the col -->
+
+        <div class="row" id="markHeader">
+
+        <!-- col for the heading of the subject code -->
+        <div class="col-2" id="headSubCode">
+        <p>SUBJECT CODE</p>
+        </div>
+
+        <div class="col-3" id="headSubName">
+        <p>
+        SUBJECT NAME
+        </p>
+
+        </div>
+        <!-- col for the maximum mark  -->
+        <div class="col-1" id="maxMark">
+        <p>MAX. MARK</p>
+        </div>
+
+        <div class="col-3">
+        <div class="row" id="combo-tpt">
+        <p>MARK OBTAINED IN FIGURES</p>
+        </div>
+        <div class="row">
+        <div class="col-4" id="head-theory">
+        <p>THEORY</p>
+        </div>
+
+        <div class="col-4" id="head-practical">
+        <p>PRACTICAL</p>
+        </div>
+
+        <div class="col-4" id="head-total">
+        <p>TOTAL</p>
+        </div>
+
+        </div>
+
+        </div>
+
+        <div class="col-1" id="head-grade">
+        GRADE
+        </div>
+
+        <div class="col-1" id="head-result">
+        RESULT
+        </div>
+        <div class="col-1" id="head-credit">
+          CREDIT
+        </div>
+
+        </div>
+
+        </div>
+
+
+        <!-- container for the body of the marksheet -->
+
+        <div class="container" id="body-marksheet">
+<div class="row course-row">
+  <div class="col-2" id="courseCode">
+    <p>21MA104</p>
+  </div>
+  <div class="col-3" id="subName">
+    <p>PROBABILITY AND RANDOM PROCESS</p>
+  </div>
+  <div class="col-1" id="body-maxmark">
+    <p>100</p>
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="theoryMark">
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="practicalMark">
+  </div>
+  <div class="col-1" id="totalmark">
+    <p class="totalMark"></p>
+  </div>
+  <div class="col-1" id="col-grade">
+    <p class="gradeForEach"></p>
+  </div>
+  <div class="col-1" id="passfail">
+    <p class="passFail"></p>
+  </div>
+  <div class="col-1" id="credits">
+    <input type="number" class="credits" placeholder="Credits">
+  </div>
+</div>
+<div class="row course-row">
+  <div class="col-2" id="courseCode">
+    <p>21MA104</p>
+  </div>
+  <div class="col-3" id="subName">
+    <p>PROBABILITY AND RANDOM PROCESS</p>
+  </div>
+  <div class="col-1" id="body-maxmark">
+    <p>100</p>
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="theoryMark">
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="practicalMark">
+  </div>
+  <div class="col-1" id="totalmark">
+    <p class="totalMark"></p>
+  </div>
+  <div class="col-1" id="col-grade">
+    <p class="gradeForEach"></p>
+  </div>
+  <div class="col-1" id="passfail">
+    <p class="passFail"></p>
+  </div>
+  <div class="col-1" id="credits">
+    <input type="number" class="credits" placeholder="Credits">
+  </div>
+</div>
+        <div class="row course-row">
+  <div class="col-2" id="courseCode">
+    <p>21MA104</p>
+  </div>
+  <div class="col-3" id="subName">
+    <p>PROBABILITY AND RANDOM PROCESS</p>
+  </div>
+  <div class="col-1" id="body-maxmark">
+    <p>100</p>
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="theoryMark">
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="practicalMark">
+  </div>
+  <div class="col-1" id="totalmark">
+    <p class="totalMark"></p>
+  </div>
+  <div class="col-1" id="col-grade">
+    <p class="gradeForEach"></p>
+  </div>
+  <div class="col-1" id="passfail">
+    <p class="passFail"></p>
+  </div>
+  <div class="col-1" id="credits">
+    <input type="number" class="credits" placeholder="Credits">
+  </div>
+</div>
+       <div class="row course-row">
+  <div class="col-2" id="courseCode">
+    <p>21MA104</p>
+  </div>
+  <div class="col-3" id="subName">
+    <p>PROBABILITY AND RANDOM PROCESS</p>
+  </div>
+  <div class="col-1" id="body-maxmark">
+    <p>100</p>
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="theoryMark">
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="practicalMark">
+  </div>
+  <div class="col-1" id="totalmark">
+    <p class="totalMark"></p>
+  </div>
+  <div class="col-1" id="col-grade">
+    <p class="gradeForEach"></p>
+  </div>
+  <div class="col-1" id="passfail">
+    <p class="passFail"></p>
+  </div>
+  <div class="col-1" id="credits">
+    <input type="number" class="credits" placeholder="Credits">
+  </div>
+</div>
+      <div class="row course-row">
+  <div class="col-2" id="courseCode">
+    <p>21MA104</p>
+  </div>
+  <div class="col-3" id="subName">
+    <p>PROBABILITY AND RANDOM PROCESS</p>
+  </div>
+  <div class="col-1" id="body-maxmark">
+    <p>100</p>
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="theoryMark">
+  </div>
+  <div class="col-1" id="entermark">
+    <input type="number" class="practicalMark">
+  </div>
+  <div class="col-1" id="totalmark">
+    <p class="totalMark"></p>
+  </div>
+  <div class="col-1" id="col-grade">
+    <p class="gradeForEach"></p>
+  </div>
+  <div class="col-1" id="passfail">
+    <p class="passFail"></p>
+  </div>
+  <div class="col-1" id="credits">
+    <input type="number" class="credits" placeholder="Credits">
+  </div>
+</div>
+        </div>
+
+
+        <!-- container for the percentage cgpa gpa  -->
+        <div class="container" id="cont-cgpa">
+       <div class="row">
+  <div class="col-4" id="col-gpa">
+    Grade Point Average (GPA)
+  </div>
+  <div class="col-8" id="gpa-result">
+   0.00
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4" id="col-cgpa">
+    Cumulative Grade Point Average (CGPA)
+  </div>
+  <div class="col-8" id="cgpa-result">
+     0.00
+  </div>
+</div>
+
+        </div>
+
+        <div class="container" >
+          <div class="row">
+            <div class="col-6" id="date">
+
+            <span>Date : </span>
+            <span>02-Aug-2023</span>
+            </div>
+            <div class="col-6">
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-6" id="signature">
+              Signature of the Canadidate
+            </div>
+            <div class="col-6" id="coe">
+              CONTROLLER OF EXAMINATION
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script>
+
+
+// Grade point mapping
+const gradeToPoints = { 'A': 4.0, 'B': 3.0, 'C': 2.0, 'D': 1.0, 'F': 0.0 };
+
+// Function to calculate total marks, GPA, and CGPA
+function calculateGPA() {
+  let totalGradePoints = 0;
+  let totalCredits = 0;
+
+  // Select all rows within the container
+  var rows = document.querySelectorAll('.course-row');
+
+  // Iterate over each row
+  rows.forEach(function(row) {
+    // Get the theory and practical marks inputs
+    var theoryInput = row.querySelector('.theoryMark');
+    var practicalInput = row.querySelector('.practicalMark');
+    var totalOutput = row.querySelector('.totalMark');
+    var gradeOutput = row.querySelector('.gradeForEach');
+    var passFailOutput = row.querySelector('.passFail');
+    var creditsInput = row.querySelector('.credits');
+
+    if (theoryInput && practicalInput && totalOutput && gradeOutput && passFailOutput && creditsInput) {
+      var theoryMark = parseFloat(theoryInput.value) || 0;
+      var practicalMark = parseFloat(practicalInput.value) || 0;
+      var totalMark = theoryMark + practicalMark;
+      var credits = parseFloat(creditsInput.value) || 0;
+
+      // Display the total mark
+      totalOutput.textContent = totalMark;
+
+      // Determine grade
+      let grade;
+      if (totalMark >= 90) grade = 'A';
+      else if (totalMark >= 80) grade = 'B';
+      else if (totalMark >= 70) grade = 'C';
+      else if (totalMark >= 60) grade = 'D';
+      else grade = 'F';
+
+      // Pass/Fail determination
+      let passFail = (totalMark >= 60) ? 'Pass' : 'Fail';
+
+      // Display grade and pass/fail status
+      gradeOutput.textContent = grade;
+      passFailOutput.textContent = passFail;
+
+      // Calculate total grade points and total credits
+      totalGradePoints += gradeToPoints[grade] * credits;
+      totalCredits += credits;
+    }
+  });
+
+  // Calculate GPA and CGPA
+  var gpa = totalGradePoints / totalCredits;
+  document.getElementById('gpa-result').textContent = `${gpa.toFixed(2)}`;
+  document.getElementById('cgpa-result').textContent = `${gpa.toFixed(2)}`;
+}
+
+// Attach event listeners to inputs after DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.theoryMark, .practicalMark, .credits').forEach(function(input) {
+    input.addEventListener('input', calculateGPA);
+  });
+
+  // Initial calculation on page load
+  calculateGPA();
+});
+
+    </script>
+
+  </body>
+</html>

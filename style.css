@@ -1,0 +1,226 @@
+.section1{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+.main{
+  background-color: rgba(239, 239, 39, 0.342);
+  border: 2px black solid;
+}
+#col-srNo{
+  padding: 30px;
+}
+#col-logo{
+  padding: 30px;
+  text-align: center;
+}
+#logo{
+  height: 150px;
+  width: 100px;
+}
+#col-Qr{
+  padding: 30px;
+}
+
+#orCode{
+  height: 80px;
+  width: 80px;
+  float: right;
+}
+
+
+#clgName{
+  text-align: center;
+
+}
+
+
+#markSheet{
+  padding: 10px;
+  text-align: center;
+}
+
+#nameCourse{
+ border: 1px black solid;
+}
+
+#col-candiName{
+  text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+#col-courseDep{
+  text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+#col-regNo{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+#enrollNo{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+#trainiName{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+
+#container-mark{
+  margin-top: 8px;
+}
+
+#markHeader{
+  border: 1px black solid;
+}
+
+#headSubCode{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+#headSubName{
+   padding: 20px;
+  border: 1px black solid;
+}
+#maxMark{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+}
+#combo-tpt{
+    text-align: center;
+  padding: 5px;
+  border: 1px black solid;
+
+}
+
+#head-theory{
+    text-align: center;
+  padding: 5px;
+  border: 1px black solid;
+}
+#head-practical{
+  text-align: center;
+  padding: 5px;
+  border: 1px black solid;
+}
+
+#head-total{
+    text-align: center;
+  padding: 5px;
+  border: 1px black solid;
+}
+#head-grade{
+     text-align: center;
+  padding: 20px;
+  border: 1px black solid; 
+}
+
+#head-result{
+   text-align: center;
+  padding: 20px;
+  border: 1px black solid; 
+}
+#head-credit{
+ text-align: center;
+  padding: 20px; 
+}
+
+#body-marksheet{
+  border: 1px black solid;
+}
+#body-maxmark{
+   text-align: center;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#courseCode{
+  border: 1px black solid;
+   text-align: center;
+  padding: 20px;
+}
+#subName{
+   /* text-align: center; */
+  border: 1px black solid;
+  padding: 20px;
+}
+#entermark{
+  border: 1px black solid;
+  padding: 20px;
+}
+#totalmark{
+  border: 1px black solid;
+  text-align: center;
+  padding: 20px;
+
+}
+#col-grade{
+
+  border: 1px black solid;
+  text-align: center;
+  padding: 20px;
+}
+#passfail{
+  text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+
+}
+#credits{
+  border: 1px black solid;
+  padding: 20px;
+}
+
+input{
+  width: 100%;
+  /* background-color: transparent; */
+  border: none;
+}
+#cont-cgpa{
+  border: 1px black solid;
+}
+
+#col-credit{
+  padding: 8px;
+  border: 1px black solid; 
+}
+#col-gpa{
+ padding: 8px;
+  border: 1px black solid;  
+}
+#col-cgpa{
+  padding: 8px;
+  border: 1px black solid; 
+}
+#gpa-result{
+  padding: 8px;
+  border: 1px black solid; 
+
+}
+#cgpa-result{
+  border: 1px black solid; 
+  padding: 8px;
+
+}
+
+#date{
+  padding: 10px;
+}
+#signature{
+ padding: 60px 0px 0px 0px;
+ text-align: center;
+}
+#coe{
+   padding: 60px 0px 0px 0px;
+ text-align: center;
+}
